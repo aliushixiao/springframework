@@ -15,6 +15,7 @@ public class Main {
             ourSessionFactory = new Configuration().
                     configure("hibernate.cfg.xml").
                     buildSessionFactory();
+            System.out.println("hello nihao");
         } catch (Throwable ex) {
             throw new ExceptionInInitializerError(ex);
         }
